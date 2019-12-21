@@ -3,7 +3,7 @@ stages:
   - Test
 
 Test:
-  image: registry.gitlab.com/cssl/netchris/public/build/docker/test01-image/base:master-104837926
+  image: registry.gitlab.com/cssl/netchris/public/build/docker/alpine/image/base:init-104844165
   stage: Test
   script:
     - echo "Hello!"
