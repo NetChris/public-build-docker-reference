@@ -3,8 +3,7 @@ stages:
   - Test
 
 Test:
-  image: registry.gitlab.com/cssl/netchris/public/build/docker/images/base:local-1576969114
+  image: registry.gitlab.com/cssl/netchris/public/build/docker/images/alpine:master-104856936
   stage: Test
   script:
-    - echo "Hello!"
-    - curl
+    - curl -X GET https://docker.loc.network/
