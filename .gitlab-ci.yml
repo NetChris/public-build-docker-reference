@@ -7,3 +7,5 @@ Test:
   stage: Test
   script:
     - curl -X GET https://docker.loc.network/
+  tags:
+    - NetChris
