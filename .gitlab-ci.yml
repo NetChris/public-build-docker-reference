@@ -3,7 +3,8 @@ stages:
   - Test
 
 Test:
-  image: registry.gitlab.com/cssl/netchris/public/build/docker/alpine/image/base:init-104844165
+  image: registry.gitlab.com/cssl/netchris/public/build/docker/images/base:local-1576969114
   stage: Test
   script:
     - echo "Hello!"
+    - curl
