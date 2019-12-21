@@ -2,7 +2,7 @@
 stages:
   - Test
 
-Test:
+Test - alpine:
   image: registry.gitlab.com/cssl/netchris/public/build/docker/images/alpine:master-104856936
   stage: Test
   script:
